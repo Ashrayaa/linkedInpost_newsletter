@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn Post (Yamini Rangan)</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+      .post-card {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .post-header {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+      }
+      .post-header img {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+      }
+      .post-header .post-author {
+        font-weight: bold;
+        font-size: 14px;
+      }
+      .post-header .post-title {
+        font-size: 12px;
+        color: #555;
+      }
+      .post-content {
+        padding: 0 15px;
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 15px;
+      }
+      .post-image img {
+        width: 100%;
+        height: 390px;
+        display: block;
+      }
+      .post-link {
+        padding: 0 15px;
+      }
+      .post-link a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #005aeb;
+      }
+      .review-button {
+        display: block;
+        width: 30%;
+        margin: 15px auto;
+        padding: 10px;
+        text-align: center;
+        background-color: #005aeb;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .read-article {
+        /* display: block; */
+        width: 30%;
+        margin: 15px auto;
+        padding: 10px;
+        text-align: center;
+        color: #005aeb;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      .review-button:hover {
+        background-color: #005aeb;
+      }
+      .divider {
+        border-top: 1px solid #e0e0e0;
+        margin: 10px 15px;
+      }
+      .post-image {
+        display: flex;
+        flex-direction: column;;
+        /* align-items: center; */
+      
+      }
+      .post-image img {
+        width: 100%;
+        height: 390px;
+      
+      }
+      .post-image-details {
+        flex-grow: 1;
+          padding: 10px 15px;
+        background-color: #f0f0f0;
+      }
+      .post-image-details .title {
+        font-size: 14px;
+        font-weight: bold;
+        color: #0073b1;
+      }
+      .post-image-details .description {
+        font-size: 12px;
+        color: #555;
+      }
+      .post-link {
+        padding: 0 15px;
+      }
+      .post-link a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #0073b1;
+      }
+      .post-link a.read-article {
+        font-size: 12px;
+      }
+
+      /* Responsive Styles */
+      @media (min-width: 600px) {
+        .post-card {
+          max-width: 80%;
+        }
+        .review-button,
+        .read-article {
+          width: 30%;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .post-card {
+          max-width: 70%;
+        }
+        .review-button,
+        .read-article {
+          width: 40%;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .post-card {
+          max-width: 50%;
+        }
+        .review-button,
+        .read-article {
+          width: 30%;
+        }
+      }
+      @media (min-width: 1524px) {
+        .post-card {
+          max-width: 30%;
+        }
+        .review-button {
+          width: 10%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="post-card">
+      <div class="post-header">
+        <img src="https://i.ibb.co/7zJLq6p/marybarra.jpg" alt="Author" />
+        <div>
+          <div class="post-author">Mary Barra</div>
+          <div class="post-title">
+            Chair and Cheif Executive Officer at General Motors
+          </div>
+        </div>
+      </div>
+      <div class="post-content">
+        I love seeing how the Silverado EV is impressing people, even someone
+        like Marques Brownlee! His experience highlights everything we’ve worked
+        so hard to deliver—an electric truck with serious range, performance and
+        tech. It’s exciting to see this kind of response... <br /><br />"Maybe
+        the most surprising slash impressive electric vehicles I've tested so
+        far..." -MKBHD
+      </div>
+      <div class="post-image">
+        <img src="https://i.ibb.co/472gwsv/silverado.jpg" alt="Thumbnail" />
+        <div class="post-image-details">
+          <div class="title">How Zyn Conquered America</div>
+          <div class="description">www.forbes.com</div>
+        </div>
+      </div>
+      <div class="read-article">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/posts/mary-barra_the-silverado-ev-has-the-longest-range-ive-activity-7244471845222019072-Grvk/"
+          >Read Article</a
+        >
+      </div>
+    </div>
+    <button class="review-button">Review Content</button>
+  </body>
+</html>

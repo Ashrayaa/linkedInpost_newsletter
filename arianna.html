@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn Post (Yamini Rangan)</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+      .post-card {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .post-header {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+      }
+      .post-header img {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+      }
+      .post-header .post-author {
+        font-weight: bold;
+        font-size: 14px;
+      }
+      .post-header .post-title {
+        font-size: 12px;
+        color: #555;
+      }
+      .post-content {
+        padding: 0 15px;
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 15px;
+      }
+      .post-image img {
+        width: 100%;
+        height: 390px;
+        display: block;
+      }
+      .post-link {
+        padding: 0 15px;
+      }
+      .post-link a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #005aeb;
+      }
+      .review-button {
+        display: block;
+        width: 30%;
+        margin: 15px auto;
+        padding: 10px;
+        text-align: center;
+        background-color: #005aeb;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .read-article {
+        /* display: block; */
+        width: 30%;
+        margin: 15px auto;
+        padding: 10px;
+        text-align: center;
+        color: #005aeb;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      .review-button:hover {
+        background-color: #005aeb;
+      }
+      .divider {
+        border-top: 1px solid #e0e0e0;
+        margin: 10px 15px;
+      }
+
+      /* Responsive Styles */
+      @media (min-width: 600px) {
+        .post-card {
+          max-width: 80%;
+        }
+        .review-button,
+        .read-article {
+          width: 30%;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .post-card {
+          max-width: 70%;
+        }
+        .review-button,
+        .read-article {
+          width: 40%;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .post-card {
+          max-width: 50%;
+        }
+        .review-button,
+        .read-article {
+          width: 30%;
+        }
+      }
+      @media (min-width: 1524px) {
+        .post-card {
+          max-width: 30%;
+        }
+        .review-button {
+          width: 10%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="post-card">
+      <div class="post-header">
+        <img src="https://i.ibb.co/120BGdx/ariana.jpg" alt="Author" />
+        <div>
+          <div class="post-author">Arianna Huffington</div>
+          <div class="post-title">Founder and CEO at Thrive Global</div>
+        </div>
+      </div>
+      <div class="post-content">
+        Doing ambitious, meaningful work means having to accept – in fact,
+        embrace – incompletions.<br/><br/> Handling the essential priorities of the day,
+        and accepting that not everything will get done, will allow you to
+        declare an end to your day and wake up recharged and refreshed to tackle
+        new challenges and opportunities that lie ahead.
+      </div>
+     
+      <div class="post-image">
+        <img
+          src="https://i.ibb.co/TPZF88c/linkedin1.jpg"
+          alt="Eagle with nicotine pouch"
+          width="50" height="50"
+        />
+      </div>
+      <div class="read-article">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/posts/ariannahuffington_doing-ambitious-meaningful-work-means-having-activity-7243978072880758784-UBpz/"
+          >Read Article</a
+        >
+      </div>
+    </div>
+    <button class="review-button">Review Content</button>
+  </body>
+</html>
